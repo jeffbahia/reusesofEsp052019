@@ -9,10 +9,8 @@ package br.alfa.jeferson.Strategy;
  *
  * @author Aluno
  */
-public interface transmsacoes {
+public interface IContenTransformes {
     
-   public int AmbienteTransmicaoSimutane();
-    
-    
+    public void converteQualidade();
     
 }

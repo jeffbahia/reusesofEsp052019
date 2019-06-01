@@ -9,10 +9,11 @@ package br.alfa.jeferson.Strategy;
  *
  * @author Aluno
  */
-public interface transmsacoes {
-    
-   public int AmbienteTransmicaoSimutane();
-    
-    
+public class TramissaoUnica implements transmsacoes{
+
+    @Override
+    public int AmbienteTransmicaoSimutane() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

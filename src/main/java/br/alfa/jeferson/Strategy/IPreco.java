@@ -9,10 +9,8 @@ package br.alfa.jeferson.Strategy;
  *
  * @author Aluno
  */
-public interface transmsacoes {
+public interface IPreco {
     
-   public int AmbienteTransmicaoSimutane();
-    
-    
+    public double getPreco();
     
 }

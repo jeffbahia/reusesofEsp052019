@@ -9,10 +9,12 @@ package br.alfa.jeferson.Strategy;
  *
  * @author Aluno
  */
-public interface transmsacoes {
-    
-   public int AmbienteTransmicaoSimutane();
-    
-    
-    
+public class PrecoBasico implements IPreco{
+
+    @Override
+    public double getPreco() {
+        return 21.9;//To change body of generated methods, choose Tools | Templates.
+    }
+
+
 }

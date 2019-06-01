@@ -9,10 +9,12 @@ package br.alfa.jeferson.Strategy;
  *
  * @author Aluno
  */
-public interface transmsacoes {
-    
-   public int AmbienteTransmicaoSimutane();
-    
+public class simples implements IContenTransformes{
+
+    @Override
+    public void converteQualidade() {
+        System.out.println("Qualidade Simples");//To change body of generated methods, choose Tools | Templates.
+    }
     
     
 }

@@ -10,16 +10,25 @@ package br.alfa.jeferson.Strategy;
  * @author Aluno
  */
 public class assinatura {
+    private IPreco preco;
+    private IContenTransformes qualidade;
+    private transmsacoes numeroLimite;
+
+    assinatura(IPreco preco, IContenTransformes qualidade, transmsacoes numeroLimite) {
+        this.preco = preco;
+        this.qualidade = qualidade;
+        this.numeroLimite = numeroLimite;
+    }
     
-        public static final int PLANO_BASICO = 1;
-	public static final int PLANO_PADRAO = 2;
-	public static final int PLANO_PREMIUM = 3;
-	protected double PRECO;
-        
-        public assinatura (int plano, int preco){
-            
-            
-}
-        
+    //public assinatura(IPreco preco);
     
+   public double getPreco(){
+       return preco.getPreco();
+   }
+   public void disponibilizarConteudo(){
+      qualidade.converteQualidade();
+       
+   }
+    
+
     }
