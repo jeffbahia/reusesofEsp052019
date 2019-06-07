@@ -19,7 +19,6 @@ public class Main {
      
      System.out.println(planoBasico.getPreco());
      planoBasico.disponibilizarConteudo();
-     planoBasico.AmbienteTransmicaoSimutane();
     
 
     }

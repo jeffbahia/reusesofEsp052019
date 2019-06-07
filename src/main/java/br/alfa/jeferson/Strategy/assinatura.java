@@ -29,10 +29,6 @@ public class assinatura {
       qualidade.converteQualidade();
        
    }
-      public void AmbienteTransmicaoSimutane(){
-          System.out.println(numeroLimite.AmbienteTransmicaoSimutane());
-        
-          
-      }
+    
 
     }
